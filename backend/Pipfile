@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+faiss-cpu = "*"
+pypdf = "*"
+openai = "*"
+langchain-openai = "*"
+langchain-core = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-huggingface = "*"
+groq = "*"
+pydantic = "*"
+flask = "*"
+flask-cors = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
