@@ -31,7 +31,7 @@ const ChatApp = () => {
 
   return (
     <div className="p-4 max-w-xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4">Groq Chat Assistant</h1>
+      <h1 className="text-2xl font-bold mb-4">Medical Chat Assistant</h1>
       <div className="border rounded p-4 h-96 overflow-y-auto bg-white mb-4">
         {messages.map((msg, i) => (
           <div
